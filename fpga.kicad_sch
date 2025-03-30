@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "25c11732-eb55-4b61-a6c3-663694732779")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 55.88 63.5)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f6a2b80-8e76-4baa-bad1-04d0ff9bc265")
+		(property "Sheetname" "U_FPGA_POWER"
+			(at 55.88 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_power.kicad_sch"
+			(at 55.88 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duality"
+				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844/e7ec6ff6-6367-4e7f-b7f8-4850ee864d63"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 62.23)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4edb9bb-ab3f-470a-b8f7-3ebde9c6df71")
+		(property "Sheetname" "U_FPGA_XCVR"
+			(at 95.25 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_xcvr.kicad_sch"
+			(at 95.25 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duality"
+				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844/e7ec6ff6-6367-4e7f-b7f8-4850ee864d63"
+					(page "7")
+				)
+			)
+		)
+	)
+)
