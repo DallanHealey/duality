@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="LQTdQaWX338X7fpzocqz">
+    <mxGraphModel dx="819" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="6Nv3b1OKGqgdObQZxFU1-1" target="6Nv3b1OKGqgdObQZxFU1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-1" value="USB 5V Power&lt;div&gt;FTDI w/&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;JTAG,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UART&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="6Nv3b1OKGqgdObQZxFU1-2" target="6Nv3b1OKGqgdObQZxFU1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-2" value="USB0&lt;div&gt;ULPI PHY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="6Nv3b1OKGqgdObQZxFU1-4" target="6Nv3b1OKGqgdObQZxFU1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-4" value="USB1&lt;div&gt;ULPI PHY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-5" value="&lt;div&gt;ETH0&lt;/div&gt;1G Ethernet&lt;div&gt;RGMII PHY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-6" value="&lt;div&gt;ETH1&lt;/div&gt;1G Ethernet&lt;div&gt;RGMII PHY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="6Nv3b1OKGqgdObQZxFU1-7" target="6Nv3b1OKGqgdObQZxFU1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="6Nv3b1OKGqgdObQZxFU1-7" target="6Nv3b1OKGqgdObQZxFU1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nv3b1OKGqgdObQZxFU1-7" value="&lt;div&gt;EFFINIX&lt;/div&gt;FPGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

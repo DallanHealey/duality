@@ -1,5 +1,200 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba4aeeea-982a-4252-9638-c2cfeb24b844")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 63.5 38.1)
+		(size 15.24 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e28fc7d-4fd5-4314-9908-3f9331eae463")
+		(property "Sheetname" "U_ETH0_PHY"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eth_phy.kicad_sch"
+			(at 63.5 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duality"
+				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 76.2)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64578cca-95b2-4d70-ab86-608738ef4798")
+		(property "Sheetname" "U_POWER_JTAG_UART"
+			(at 49.53 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_ftdi.kicad_sch"
+			(at 49.53 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duality"
+				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 36.83)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd519b02-51a3-46bd-88c4-26642ca77efc")
+		(property "Sheetname" "U_USB0_PHY"
+			(at 30.48 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_phy.kicad_sch"
+			(at 30.48 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NXT" output
+			(at 46.99 49.53 0)
+			(uuid "64b7cb51-3ea1-4028-a389-98ef3977c026")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" output
+			(at 46.99 46.99 0)
+			(uuid "d252f0d6-beaf-46d1-9500-f7266e8f090c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA[0..7]" bidirectional
+			(at 46.99 44.45 0)
+			(uuid "fd3eaba6-eed9-4cde-a781-82b1773653bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STP" input
+			(at 46.99 41.91 0)
+			(uuid "7263f1b0-df70-4f74-bd0c-62ee2caadca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKOUT" output
+			(at 46.99 39.37 0)
+			(uuid "dcc491a8-8e2c-4d7c-b806-c7728c162ea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~(RESET)" input
+			(at 30.48 46.99 180)
+			(uuid "b0fc0fcb-39db-4fb4-b608-e1e965a81987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "duality"
+				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
