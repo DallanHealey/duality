@@ -246,7 +246,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "duality"
+    ]
   },
   "meta": {
     "filename": "duality.kicad_pro",
@@ -423,6 +425,18 @@
     [
       "64578cca-95b2-4d70-ab86-608738ef4798",
       "U_POWER_JTAG_UART"
+    ],
+    [
+      "e7ec6ff6-6367-4e7f-b7f8-4850ee864d63",
+      "FPGA"
+    ],
+    [
+      "6f6a2b80-8e76-4baa-bad1-04d0ff9bc265",
+      "U_FPGA_POWER"
+    ],
+    [
+      "b4edb9bb-ab3f-470a-b8f7-3ebde9c6df71",
+      "U_FPGA_XCVR"
     ]
   ],
   "text_variables": {}

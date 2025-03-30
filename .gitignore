@@ -1,3 +1,5 @@
 duality-backups
 Diagrams/*.bkp
 *.lck
+*.bak
+sym-lib-table
