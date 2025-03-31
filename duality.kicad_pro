@@ -433,10 +433,6 @@
     [
       "6f6a2b80-8e76-4baa-bad1-04d0ff9bc265",
       "U_FPGA_POWER"
-    ],
-    [
-      "b4edb9bb-ab3f-470a-b8f7-3ebde9c6df71",
-      "U_FPGA_XCVR"
     ]
   ],
   "text_variables": {}

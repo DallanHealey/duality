@@ -47,46 +47,4 @@
 			)
 		)
 	)
-	(sheet
-		(at 95.25 62.23)
-		(size 12.7 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b4edb9bb-ab3f-470a-b8f7-3ebde9c6df71")
-		(property "Sheetname" "U_FPGA_XCVR"
-			(at 95.25 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fpga_xcvr.kicad_sch"
-			(at 95.25 76.7846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "duality"
-				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844/e7ec6ff6-6367-4e7f-b7f8-4850ee864d63"
-					(page "7")
-				)
-			)
-		)
-	)
 )
