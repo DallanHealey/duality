@@ -3,3 +3,4 @@ Diagrams/*.bkp
 *.lck
 *.bak
 sym-lib-table
+fp-*
