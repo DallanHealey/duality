@@ -279,7 +279,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/U_POWER_JTAG_UART/FTDI_DM": [
+        "USB_Diff_Pair"
+      ],
+      "/U_POWER_JTAG_UART/FTDI_DP": [
+        "USB_Diff_Pair"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
