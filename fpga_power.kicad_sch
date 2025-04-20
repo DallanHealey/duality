@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TI60F225"
 				(at 0 0 0)
 				(effects
 					(font
@@ -25,16 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "duality:BGA-225_15x15_10.0x10.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +34,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.efinixinc.com/docs/titanium60-ds-v3.5.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TI60F225 FPGA 16nm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4274,10 +4274,417 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 154.94 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ae8835-deb1-4d87-965a-d1321c3adf85")
+	)
+	(junction
+		(at 154.94 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c6f85aa-572b-4a3a-aeda-052d57423b29")
+	)
+	(junction
+		(at 154.94 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "751f1a21-cd78-465a-a289-abffd50a7324")
+	)
+	(junction
+		(at 154.94 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83949db8-69ea-44a8-831d-de8629411554")
+	)
+	(junction
+		(at 154.94 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "844f4b25-5309-49df-83f9-f99afdda8bc5")
+	)
+	(junction
+		(at 154.94 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da70374-6d78-44cc-94eb-dd38d76b7c45")
+	)
+	(junction
+		(at 154.94 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9418108a-0fb0-4d0e-8972-bfa57d1ced11")
+	)
+	(junction
+		(at 154.94 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "959e1a52-6ada-4bdb-82e1-f83336732da3")
+	)
+	(junction
+		(at 154.94 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a52df03b-1ead-4a33-ab32-a595a9a7f2d1")
+	)
+	(junction
+		(at 154.94 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba153af7-9b5b-4a7c-8946-b884b0bcbee4")
+	)
+	(junction
+		(at 154.94 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7aafade-0bfe-4618-9d73-159fef0a6b41")
+	)
+	(wire
+		(pts
+			(xy 152.4 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a5fc42-6936-4ff7-9d20-923e9b60ea78")
+	)
+	(wire
+		(pts
+			(xy 154.94 125.73) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd73700-7687-4a16-8808-8fa906a2f212")
+	)
+	(wire
+		(pts
+			(xy 154.94 120.65) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e923f95-77c5-46cf-a583-3ec7b405461f")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1d80c3-641c-4eca-8e3a-8bbcb9242ca0")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 154.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c81e6c7-4b0d-4e2e-987c-47efd060bd63")
+	)
+	(wire
+		(pts
+			(xy 154.94 133.35) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d96f67-ef32-40ba-8f39-3b532d90ed3d")
+	)
+	(wire
+		(pts
+			(xy 154.94 128.27) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ada07f-4f19-40e9-878e-231c1b827cce")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5393b345-0476-44f6-ad30-33cab27f2cd1")
+	)
+	(wire
+		(pts
+			(xy 154.94 115.57) (xy 154.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b141d2-6cb5-43e4-a701-b2f1d1a56919")
+	)
+	(wire
+		(pts
+			(xy 152.4 133.35) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4e4c9a-dca7-48c9-b187-2e586a6fc8f4")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a5de30-eb39-4200-b4a1-34d5be9e2030")
+	)
+	(wire
+		(pts
+			(xy 154.94 107.95) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6417955d-16c9-4d70-b28b-51b14516100b")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64912a7f-5184-4143-acba-fc6c72e4076e")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f68e1a-9041-4444-9371-1f691a8f4a5e")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7102a18d-0e69-4d19-8ef8-92071a72fa08")
+	)
+	(wire
+		(pts
+			(xy 154.94 118.11) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7122c3d6-609f-4507-9682-98861d71daa7")
+	)
+	(wire
+		(pts
+			(xy 154.94 130.81) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741a31fe-fb5d-4d6a-ad0c-a37a60ffb5bd")
+	)
+	(wire
+		(pts
+			(xy 154.94 135.89) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de93ced-ac74-488f-9a63-ceb239e3f767")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 154.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c2ecca-2fd5-4518-a97e-5f338c21e925")
+	)
+	(wire
+		(pts
+			(xy 152.4 115.57) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b458c550-b7f3-4090-9480-94759687596a")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d141e2c0-9558-4e79-8286-bc9fc6407d84")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed83aa2e-6e5e-48d0-b012-d281b1e1a3c8")
+	)
+	(wire
+		(pts
+			(xy 152.4 135.89) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6100ee3-a237-4007-9b93-ceebcdfdad49")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9ef75a-410f-45e9-95a5-c042722bab95")
 	)
 	(symbol
 		(lib_id "duality:TI60F225")
-		(at 133.35 36.83 0)
+		(at 119.38 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4285,32 +4692,23 @@
 		(dnp no)
 		(uuid "0972d4c2-2017-4469-9ab7-38408ba00b63")
 		(property "Reference" "U4"
-			(at 135.128 35.814 0)
+			(at 121.158 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 147.32 35.56 0)
+		(property "Value" "TI60F225"
+			(at 123.698 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 36.83 0)
+		(property "Footprint" "duality:BGA-225_15x15_10.0x10.0"
+			(at 119.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,8 +4716,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.35 36.83 0)
+		(property "Datasheet" "https://www.efinixinc.com/docs/titanium60-ds-v3.5.pdf"
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TI60F225 FPGA 16nm"
+			(at 119.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,6 +5413,72 @@
 			(project ""
 				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844/e7ec6ff6-6367-4e7f-b7f8-4850ee864d63/6f6a2b80-8e76-4baa-bad1-04d0ff9bc265"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dae39b8-ad7a-46fe-b730-b7348856fc37")
+		(property "Reference" "#PWR05"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc60bba7-2c00-4516-ab8d-112d7931b838")
+		)
+		(instances
+			(project ""
+				(path "/ba4aeeea-982a-4252-9638-c2cfeb24b844/e7ec6ff6-6367-4e7f-b7f8-4850ee864d63/6f6a2b80-8e76-4baa-bad1-04d0ff9bc265"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

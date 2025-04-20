@@ -3513,34 +3513,37 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3557,7 +3560,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3566,7 +3569,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "r resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3584,23 +3587,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -3617,8 +3631,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 1.016)
 					(name "~"
 						(effects
 							(font
@@ -4002,14 +4016,14 @@
 		)
 	)
 	(junction
-		(at 158.75 63.5)
+		(at 158.75 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ad4738b-7454-4bc6-9616-f23179f5021a")
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 153.67 63.5)
+			(xy 153.67 58.42) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4039,7 +4053,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 163.83 63.5)
+			(xy 163.83 58.42) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4049,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 158.75 63.5)
+			(xy 153.67 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 163.83 63.5)
+			(xy 158.75 60.96) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4528,8 +4542,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 163.83 57.15 0)
+		(lib_id "Device:R_Small_US")
+		(at 163.83 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4538,7 +4552,7 @@
 		(fields_autoplaced yes)
 		(uuid "621f7749-cc96-40fc-b8c2-f6278995e9f6")
 		(property "Reference" "R3"
-			(at 166.37 55.8799 0)
+			(at 166.37 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4561,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 166.37 58.4199 0)
+			(at 166.37 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.052 57.15 90)
+			(at 163.83 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 57.15 0)
+			(at 163.83 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,8 +4587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 163.83 57.15 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 63.5 0)
+		(at 158.75 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4674,7 +4688,7 @@
 		(fields_autoplaced yes)
 		(uuid "a77c67ed-bc4e-4881-923b-49f5fe0a8a9b")
 		(property "Reference" "#PWR02"
-			(at 158.75 69.85 0)
+			(at 158.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 68.58 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 63.5 0)
+			(at 158.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 63.5 0)
+			(at 158.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 63.5 0)
+			(at 158.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,8 +4961,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 153.67 57.15 0)
+		(lib_id "Device:R_Small_US")
+		(at 153.67 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4957,7 +4971,7 @@
 		(fields_autoplaced yes)
 		(uuid "fff98cf6-9dbe-4c0f-8818-8796b7f31558")
 		(property "Reference" "R2"
-			(at 156.21 55.8799 0)
+			(at 156.21 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4980,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 156.21 58.4199 0)
+			(at 156.21 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.892 57.15 90)
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 57.15 0)
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,8 +5006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 153.67 57.15 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
